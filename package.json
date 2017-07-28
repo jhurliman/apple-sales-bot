@@ -1,0 +1,41 @@
+{
+  "name": "apple-sales-bot",
+  "version": "1.0.0",
+  "description": "Post daily Apple sales report summaries to Slack",
+  "main": "index.js",
+  "scripts": {
+    "package": "bestzip apple-sales-bot.zip index.js package.json node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhurliman/apple-sales-bot.git"
+  },
+  "keywords": [
+    "apple",
+    "sales",
+    "report",
+    "slack",
+    "analytics",
+    "bot",
+    "itunes",
+    "connect",
+    "store",
+    "chat"
+  ],
+  "author": "John Hurliman <jhurliman@jhurliman.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhurliman/apple-sales-bot/issues"
+  },
+  "homepage": "https://github.com/jhurliman/apple-sales-bot#readme",
+  "dependencies": {
+    "apple-reporter": "^2.0.1",
+    "aws-sdk": "^2.92.0",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "bestzip": "^1.1.4"
+  }
+}
